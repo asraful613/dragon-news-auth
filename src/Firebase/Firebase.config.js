@@ -9,7 +9,7 @@ const firebaseConfig = {
   authDomain: "dragon-news-auth-3ad39.firebaseapp.com",
   projectId: "dragon-news-auth-3ad39",
   storageBucket: "dragon-news-auth-3ad39.appspot.com",
-  messagingSenderId: "479530589830",
+  messagingSenderId: import.meta.env.VITE_PASS,
   appId: "1:479530589830:web:24884e2027ae0fff77fb07"
 };
 
